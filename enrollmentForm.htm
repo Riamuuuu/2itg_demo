@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Enrollment Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!--Navigation Bar--->
+    <nav class="navbar navbar-style navbar-expand-md navbar-dark bg-dark mb-4">
+      <div class="container-fluid">
+		<a href=""><img class="logo" src="UST LOGO WHITE.png"></a>
+        <a class="navbar-brand" href="#">Nameless University</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="enrollmentForm.htm">Enrollment Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<main class="my-1">
+	<h1><b><center>ENROLLMENT FORM</center></b></h1>
+	<div class="container">
+		<div class="row md-3 justify-content-center align-items-center">
+	<!--Form--->
+	<form name="enrollmentForm" id="enrollmentForm">
+		<!--Contact Information-->
+		<fieldset id="contact">
+			<legend><b>Contact Information</b></legend>
+			<fieldset id="addressFor" style="width: 160px">
+				<legend>Address For</legend>
+				<label for="homeoption">Home</label>
+				<input type="radio" id="homeoption" name="address" value="home" checked="checked"/>
+				<label for="busoption">Business</label>
+				<input type="radio" id="busoption" name="address" value="home"/>
+			</fieldset>
+			<label class="blocklabel">
+				First Name <span>*</span>
+				<input type="text" id="firstName" name="firstName"/>
+			</label>
+			<label class="blocklabel">
+				Last Name <span>*</span>
+				<input type="text" id="lastName" name="lastName"/>
+			</label>
+			<label class="blocklabel">
+				Address <span>*</span>
+				<input type="text" id="address" name="address"/>
+			</label>
+			<label class="blocklabel">
+				Phone <span>*</span>
+				<input type="text" id="phone" name="phone"/>
+			</label>
+			<label class="specAddress">
+				City <span>*</span>
+				<input type="text" id="city" name="city" value="Manila"/>
+				State <span>*</span>
+				<input type="text" id="state" name="state" value="CA"/>
+				ZIP <span>*</span>
+				<input type="text" id="ZIP" name="ZIP"/>
+			</label>
+		</fieldset></br>
+		<!--Student Record-->
+		<fieldset id="record">
+			<legend><b>Student Record</b></legend>
+			<label class="blocklabel">
+				Student ID <span>*</span>
+				<input type="text" id="firstName" name="firstName"/>
+			</label>
+			<label class="blocklabel">
+				Program <span>*</span>
+				<input type="text" id="lastName" name="lastName"/>
+			</label>
+			<label class="blocklabel">
+				Year <span>*</span>
+				<select id="yrlvl" name="yrlvl">
+					<option>1st Year</option>
+					<option>2nd Year</option>
+					<option>3rd Year</option>
+					<option>4th Year</option>
+					<option>5th Year</option>
+				</select>
+			</label>
+			<label class="blocklabel">
+				Birthdate <span>*</span>
+				<select id="month" name="month">
+					<option>January</option>	<option>Febrauary</option>	<option>March</option>
+					<option>April</option>		<option>May</option>		<option>June</option>
+					<option>July</option>		<option>August</option>		<option>September</option>
+					<option>October</option>	<option>November</option>	<option>December</option>
+				</select>
+				<select id="day" name="day">
+					<option>1</option>		<option>2</option>		<option>3</option>
+					<option>4</option>		<option>5</option>		<option>6</option>
+					<option>7</option>		<option>9</option>		<option>10</option>
+					<option>11</option>		<option>12</option>		<option>13</option>
+					<option>14</option>		<option>15</option>		<option>16</option>
+					<option>17</option>		<option>19</option>		<option>20</option>
+					<option>21</option>		<option>22</option>		<option>23</option>
+					<option>24</option>		<option>25</option>		<option>26</option>					
+					<option>27</option>		<option>29</option>		<option>30</option>
+					<option>31</option>
+				</select>
+				<select id="year" name="year">
+					<option>1985</option>	<option>1986</option>	<option>1987</option>
+					<option>1988</option>	<option>1989</option>	<option>1990</option>
+					<option>1991</option>	<option>1992</option>	<option>1993</option>
+					<option>1994</option>	<option>1995</option>	<option>1996</option>
+					<option>1997</option>	<option>1998</option>	<option>1999</option>
+					<option>2000</option>	<option>2001</option>	<option>2002</option>
+					<option>2003</option>	<option>2004</option>	<option>2005</option>
+					<option>2006</option>	<option>2007</option>	<option>2008</option>
+					<option>2009</option>	<option>2010</option>	<option>2011</option>
+					<option>2012</option>	<option>2013</option>	<option>2014</option>
+					<option>2015</option>	<option>2016</option>	<option>2017</option>
+					<option>2018</option>	<option>2019</option>	<option>2020</option>
+					<option>2021</option>	<option>2022</option>				
+				</select>
+			</label>
+		</fieldset></br>
+		<!--Feedback-->
+		<fieldset id="feedback">
+			<legend><b>Feedback</b></legend>
+			<label>
+				<input type="checkbox" id="volunteer" name="volunteer"/>
+				I'm satisfied on the services rendered by the staff.
+			</label>
+			<label for="comments" class="blocklabel">Comments</label>
+			<textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+		</fieldset>
+	</form></br>
+
+	<!--Buttons-->
+	<div class="col-md-4 my-5"><button type="button" class="btn btn-primary">Submit Records</button></div>
+	<div class="col-md-2" my-5><button type="button" class="btn btn-secondary">Cancel</button></div>
+	</div>
+
+	<!--Footer-->
+	</div>
+	</main>
+	<footer class="footer mt-auto py-3 bg-dark">
+        <div class="container" style="text-align: center">
+          	<span class="text-muted footer">
+				<b><i>The Nameless University &bull; 0202 Endless Road &bull; Manila City; Ph 3333 &bull; (123) 888-8888</i></b>
+			</span>
+		</div>
+        </div>
+    </footer>
+</body>
+</html>
