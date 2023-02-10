@@ -1,0 +1,25 @@
+body {background-color: #FAFAD2}
+
+label.blocklabel {display: block; position:relative; margin: 12px 0px}
+label.specAddress {display: block; position:relative; margin: 12px 0px; left: 150px}
+label.blocklabel input {position: absolute; left: 150px}
+label.blocklabel select {position: absolute; left: 150px}
+#day {position: absolute; left: 300px}
+#year {position: absolute; left: 410px}
+
+#firstName, #lastName, #address, #phone {width: 25em}
+#city, #state {width: 63px}
+#ZIP {width: 50px}
+
+#enrollmentForm span {color: red}
+
+.navbar-style
+{
+	box-shadow: 0 5px 10px #bbbbbb;
+	text-transform: uppercase;
+}
+.logo
+{
+	height: 60px;
+	padding: 5px 10px;
+}
