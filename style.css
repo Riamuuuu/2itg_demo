@@ -8,7 +8,7 @@ label.blocklabel select {position: absolute; left: 150px}
 #year {position: absolute; left: 410px}
 
 #firstName, #lastName, #address, #phone {width: 25em}
-#city, #state {width: 63px}
+#city, #state {width: 64px}
 #ZIP {width: 50px}
 
 #enrollmentForm span {color: red}
